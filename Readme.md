@@ -1,2 +1,2 @@
 - npm install
-- sass <path to scss file> <path to css file>
+- sass 'path to scss file' 'path to css file'
