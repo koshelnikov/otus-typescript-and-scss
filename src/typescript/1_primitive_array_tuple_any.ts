@@ -1,17 +1,19 @@
 // Primitive
-let a = 1;
+// let a1 = 1;
 // a = 2;
 // a = 3;
 // a = '4'
 
 // const a = 1;
 // const b: typeof a = 1;
-// const a: number = 1;
-// const b: typeof a = 2;
+// const a1: number = 1;
+// const b1: typeof a1 = 2;
+
 
 // b: (string | number) []
-// const b = ["1", 1]
-// const boolVar = false;
+// const b: (string | number)[] = ["1", 1]
+// let boolVar: boolean = false;
+// b.push(boolVar);
 // boolVar = 'true'
 
 // Array
@@ -20,10 +22,12 @@ let a = 1;
 
 // Tuple
 // error: [string, number] != (string | number) []
-// const c: [string, number] = b;
+//const b: [string, number] = ["1", 1]
+//const c: [string, number] = b;
 
 // error: [string, number] != [number, string]
-// const c: [string, number] = [1, "1"];
+///const b: (string | number) [] = [1, "1", 3, "sdblksd"]
+// const c: [string, number] = ["1", 1, 2];
 
 // success [string, number] == [string, number]
 // const c: [string, number] = ["1", 1];

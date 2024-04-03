@@ -4,5 +4,5 @@
 .class-name {
   color: $primary-color;
 
-  @include add-background($secondary-color)
+  @include add-background($primary-color)
 }

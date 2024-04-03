@@ -1,4 +1,7 @@
 namespace A {
+    interface TestFirst {
+
+    }
     export interface Test {
         a: string
     }

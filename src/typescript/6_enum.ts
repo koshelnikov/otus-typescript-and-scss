@@ -4,10 +4,12 @@ enum NumberEnum {
     third
 }
 
-// NumberEnum.first === 0;
-// NumberEnum.second === 1;
-// NumberEnum.third === 2;
-// NumberEnum.first === 2;
+//NumberEnum.first === 0;
+//NumberEnum.second === 1;
+//NumberEnum.third === 2;
+//const a: number = 2;
+//if (NumberEnum.first === a) {}
+
 
 enum StringEnum {
     first = 'first',
@@ -15,8 +17,8 @@ enum StringEnum {
     third = 'third'
 }
 
-// StringEnum.first === 'first'
-// StringEnum.second === 'second'
+//StringEnum.first === 'first'
+//StringEnum.second === 'second'
 // StringEnum.third === 'third'
 // StringEnum.first === 'third'
 
@@ -28,5 +30,5 @@ const validation: StringType = {
     [StringEnum.first]: 'first value',
     [StringEnum.second]: 'second value',
     [StringEnum.third]: 'third value',
-    // name: '1'
+    //name: '1'
 }

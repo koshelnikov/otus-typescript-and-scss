@@ -31,14 +31,13 @@ const userInfo: UserInfo = {
 type Shape =
     | { kind: "circle"; radius: number }
     | { kind: "square"; x: number, y: number, width: number, height: number }
-    | { kind: "triangle"; x: number; y: number };
+    | { kind: "triangle"; x: number; y: number, z: number };
 
 type CircleShape = Extract<Shape, { kind: "circle" }>
 
 const circle: CircleShape = {
     kind: 'circle',
-    radius: 1,
-    // x: 2
+    radius: 1
 }
 
 export {}
