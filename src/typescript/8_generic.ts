@@ -35,5 +35,22 @@ const objectId: {id: number, key: string} = userWithObjectId.getId();
 
 
 
+interface A {
+    length: number;
+}
+
+interface B extends A {
+    id: number;
+}
+
+function loggingIdentity<Type extends A>(arg: Type): Type {
+    console.log(arg.length);
+    return arg;
+}
+
+const value: B = loggingIdentity({id: 1, length: 1})
+// error
+//const value2: B = loggingIdentity({id: 1})
+
 
 export {}
